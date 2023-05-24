@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+/* --------------------- 1. Global styles --------------------- */
+/* CSS reset zorgt ervoor dat alle vooraf / automatisch ingestelde wordt gereset. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------- 2. Typography --------------------- */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header-section {
+    color: white;
+    background-color: #17403F;
+    text-align: center;
+    padding: 150px 50px;
+    position: relative;
+}
+
+.header-section h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.header-section p {
+    color: #A7C9C8;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 12px 0 30px 0;
+}
+.header-section button {
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    color: #17403F;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.usp-article h2 {
+    font-size: 34px;
+}
+
+.usp-article p {
+    color: #607373;
+}
+.introduction-section {
+    max-width: 900px;
+    margin:  250px auto 150px;
+}
+
+.usp-article {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    min-width: 200px;
+}
+
+.header-image {
+    max-width: 600px;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: -200px;
+}
+
+
+/*  ////////////////////////////
+Table of contents
+1. Global styles
+2. Typography
+3. Areas
+    3.1 Header
+    3.2 Introduction
+    3.3 Footer
+    3.4 etc
+//////////////////////////// */
+
+/* --------------------- 1. Global styles --------------------- */
+/* --------------------- 2. Typography --------------------- */
+/* --------------------- 3. Areas --------------------- */
